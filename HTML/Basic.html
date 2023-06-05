@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Elements</title>
+</head>
+
+<body>
+    <h1>Headings in HTML</h1>
+    <hr style="border-style: dotted;">
+    <!-- Heading in HTML -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <br>
+    <!-- HTML paragraphs are defined with p Tag -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore maiores ipsum natus nemo reprehenderit blanditiis! Quo asperiores molestias tempore, et deleniti amet delectus odit ea ut dicta repellat itaque, natus commodi ipsa assumenda?</p>
+
+    <hr>
+
+    <!-- HTML Links -->
+    <a href="https:youtube.com">This is the Link for Youtube</a>
+    <hr>
+
+    <!-- Image Tag 
+    src attribute can include links from external resources and images which belong to the same folder, external images may not be modified and can be removed. so we can provide an alternate text to display what the image actually about.
+    -->
+    <img src="UCBOS.png" alt="UCBOS icon" height="100px" width="100px"> </img>
+
+    <!-- Some HTML Elements will display correctly even if we just give the opening tag of the element but its not 
+    good practise to Skip the End Tag-->
+
+    <!-- HTML elements with no content are called Empty elements ex: br -->
+
+    <!-- HTML Tags are not Case sensitive , we prefer to write it in lower case-->
+
+    <!-- Style Attribute : This attribute is used to add Style to HTML element, this is inline styles-->
+    <hr>
+    <h1 style="background-color: yellow; color: black;">
+        UCBOS is no code platform
+    </h1>
+
+    <hr>
+    <br>
+    <!-- Title Attribute := Defines some information about the html element -->
+    <a href="www.google.com" title="Click link to Open Google">Welcome to Google</a>
+    <br>
+    <hr>
+
+    <!-- Use proper Quotations when using attributes for html elements, or when attribute having values with Spaces will not give the expected output, it will consider only the first word before the space character-->
+    <p title=This is error>Welcome</p>
+
+    <!-- Attribute values can be enclosed inside single or double quotation, but if values contain double quotation, then we have to use double quotes inside single quotes or vice-versa, same like in other languages ex : JAVA-->
+
+    <hr>
+
+    <!-- Lang Attribute :This define the Language of the Web Page and is used inside the html element, we can also
+    specify the country in the language attribute followed by the language value-->
+
+    <!-- HTML Heading should not be used to make texts Big or Small -->
+
+    <!-- If we want Bigger Headings, then we can use the style property to make it font size larger-->
+    <h6 style="font-size : 50px;">I am the Smallest Heading, But I am the Largest Now</h6>
+    <br>
+    <hr>
+
+    <!-- Paragraph always starts on a New Line and have display property as block, browser automatically adds some default CSS to the paragraph element-->
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nam ipsa id impedit voluptas dolores natus officiis fuga totam dolore voluptatem asperiores necessitatibus officia magnam, iusto, hic quidem corporis quo omnis. Voluptate corporis sequi
+        labore ratione repellendus deserunt quibusdam alias neque, tempora minima eaque nobis illum assumenda animi eligendi eveniet cumque a quis molestiae minus sed, nihil asperiores nam. Repellendus</p>
+
+    <!-- Browser will auto remove any whitespaces in the paragraph -->
+
+    <!-- if we want pre formatted text then we can use pre Tag-->
+    <pre>
+        Hi
+          Hello
+               Hey There
+    </pre>
+
+    <!-- Using pre Tag, the Browser maintains the Format or Structure of the Text Included inside the Tag-->
+
+    <hr>
+    <!-- HTML Style Attribute :
+    -->
+
+    <p style="color:rgb(11, 236, 109)">I am a Lorem Ipsum Default Text : Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, porro nulla ad voluptatibus dolorum expedita enim quibusdam atque. Excepturi qui quasi veritatis porro eius perspiciatis ipsam officia, consectetur
+        aut asperiores?
+    </p>
+
+    <h1 style="font-size : 5px">Hey there can you see me?</h1>
+
+    <hr>
+    <!-- HTML Links
+    target attribute values :- _blank,_self etc
+    _blank -> open link in new Tab
+    _self -> opens link in the Same Tab-->
+    <a href="https:dreaminnovator.in" target="_self">Portfolio Website</a>
+
+    <!-- Absolute URLs := External Urls
+        Relative URLs := Local path to images stored in local-->
+
+    <hr>
+    <!-- Using Image as a Link-->
+    <a href="https://ucbos.com" target="_blank">
+        <img src="UCBOS.png" height="100px;" width="100px;" alt="UCBOS">
+    </a>
+
+    <hr>
+    <!-- Link to an email Address, we can do that by using mailto inside the href attribute for a tag-->
+    <a href="mailto:manojmutukundu@gmail.com">Send Mail to Manoj</a>
+</body>
+
+</html>
