@@ -1,0 +1,38 @@
+/* th,
+td {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+td {
+    background-color: aquamarine;
+}
+
+th,
+td {
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: red;
+}
+
+table {
+    width: 10%;
+    border-spacing: 2px;
+} */
+
+
+/** CSS For Tables Practise */
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
