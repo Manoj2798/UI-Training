@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSS Test</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /**
+      Here h1 is the css selector
+      and the things we write inside the curly brackets are the element properties
+      ex : background-color - this changes the background color of the element.
+      */
+        /**
+      display property sets the display of a particular element,
+      for h1, p the display property is block which means no other element will be 
+      placed next to it on the same line
+      */
+        
+        h1 {
+            background-color: aquamarine;
+            display: block;
+        }
+    </style>
+
+    <!-- Note that the internal css properties are overriden by the external css file
+   as it is read later than the internal css
+   
+   The order of priority is inline css > external/internal (depending on the order
+   they appear)-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Adding Default Elements-->
+    <h1>Welcome to My Website!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident officiis eveniet ex sapiente incidunt dolore porro ipsum omnis, cupiditate dolorem quia non dignissimos vel error deserunt sit corrupti quam aut, perferendis eum. Vitae!</p>
+    <button6 style="background-color: rgb(162, 142, 243); color: white;">Lets Get Started</button>
+
+        <!-- Now inorder to add Css, we have 3 ways to do that
+    1) Inline CSS, Internal CSS, External CSS
+    1) Inline CSS - css written inline to the element
+    2) Internal CSS : css written in the head section
+    3) External CSS : css which is written in a seperate file and linked through link tag-->
+</body>
+
+</html>
