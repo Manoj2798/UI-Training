@@ -37,7 +37,7 @@ h3 {
     color: rgb(255, 255, 255);
     background-color: rgb(14, 12, 12);
     font-size: 10px;
-    padding: 5px 5px;
+    padding: 12px 10px;
     float: right;
     margin-right: 10px;
 }
@@ -52,6 +52,9 @@ h3 {
     p {
         font-size: small !important;
     }
+    .btn {
+        font-size: 5px;
+    }
 }
 
 .title {
@@ -65,4 +68,16 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+hr {
+    color: gray;
+}
+
+.postBy {
+    margin: 0;
+}
+
+.Date {
+    margin: 6px 0;
 }
