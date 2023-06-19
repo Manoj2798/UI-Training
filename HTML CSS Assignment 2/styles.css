@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    flex: content;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #09204a;
+    background-blend-mode: hard-light;
+    background-image: url(https://cdn.wallpapersafari.com/18/97/6TibOJ.jpg);
+    background-size: cover;
+}
+
+.topLeft-content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.message {
+    font-weight: lighter;
+}
+
+.left-container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.ToDo {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.leftCards {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 180px;
+    width: 50%;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.box {
+    background: linear-gradient(#6558a9, #01020a);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(9, 1, 47);
+    padding: 22px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+    box-shadow: -2px 0px 0px 0px #fffefe;
+}
+
+a {
+    color: white;
+}
+
+.topRight {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 30px;
+    display: flex;
+}
+
+.loader {
+    display: flex;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #6558a9;
+    border-right: 12px solid #6558a9;
+    border-bottom: 12px solid #6558a9;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.text {
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    float: right;
+}
+
+.rightCards {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    flex-shrink: 10;
+}
+
+.rightbox {
+    background: linear-gradient(#6558a9, #01020a);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(9, 1, 47);
+    padding: 22px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    opacity: 0.8;
+    box-shadow: 2px 0px 0px 0px #fffefe;
+}
+
+.leftLinks {
+    color: #6558a9;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.rightLinks {
+    color: #6558a9;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.setup {
+    color: #6558a9;
+    font-weight: bold;
+}
+
+.right-top {
+    position: relative;
+    top: 40px;
+    right: 65px;
+}
